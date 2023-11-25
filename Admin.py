@@ -7,7 +7,7 @@ from kivy.uix.label import Label
 from kivy.uix.scrollview import ScrollView
 from kivy.utils import platform
 from kivy.clock import Clock
-
+import subprocess
 class SSHClientApp(App):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
